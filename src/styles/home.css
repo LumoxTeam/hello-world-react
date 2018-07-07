@@ -1,0 +1,22 @@
+.Home {
+    align-content: center;
+    background: #206e8d;
+    display: flex;
+    justify-content: center;
+    margin: auto auto;
+    height: 100px;
+    width: 80%;
+}
+
+.Home p {
+    align-content: center;
+    background: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    height: 50px;
+    justify-content: center;
+    margin: auto auto;
+    text-align: center;
+    width: 50%;
+}
