@@ -19,7 +19,23 @@ module.exports = {
       },
       {
         test: /\.css$/,
-        use: [ 'style-loader', 'css-loader' ]
+        loaders: [
+          {
+            loader: "file-loader",
+            options: {
+                name: "css/[name].css",
+            },
+          },
+          {
+            loader: "extract-loader",
+            options: {
+              publicPath: path.resolve(__dirname, 'dist'),
+            }
+          },
+          {
+            loader: "css-loader",
+          }
+        ]
       }
     ]
   }
