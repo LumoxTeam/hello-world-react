@@ -1,22 +1,31 @@
 .Home {
-    align-content: center;
     background: #206e8d;
-    display: flex;
-    justify-content: center;
     margin: auto auto;
-    height: 100px;
     width: 80%;
 }
 
-.Home p {
-    align-content: center;
-    background: #f2f2f2;
+.Home h1 {
+    text-align: center;
+    padding-top: 5px;
+}
+
+.People-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    justify-items: center;
+    align-items: center;
+}
+
+.People{
     display: flex;
-    flex-direction: column;
-    font-size: 2rem;
-    height: 50px;
+    align-items: center;
     justify-content: center;
-    margin: auto auto;
+    background: #f2f2f2;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    height: 50px;
     text-align: center;
     width: 50%;
 }
