@@ -6,7 +6,6 @@
     }]
   ],
   "presets": [
-    ["env"],
-    "react"
+    "react", "env"
   ]
 }

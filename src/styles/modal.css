@@ -1,33 +1,4 @@
-.Home {
-    background: #206e8d;
-    margin: auto auto;
-    width: 80%;
-}
-
-.Home h1 {
-    text-align: center;
-    padding-top: 5px;
-}
-
-.People{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #f2f2f2;
-  border: 1px solid black;
-  border-radius: 5px;
-  font-size: 1.5rem;
-  height: 50px;
-  text-align: center;
-  width: 50%;
-  cursor: pointer;
-}.People-list {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: auto;
-  justify-items: center;
-  align-items: center;
-}.Modal {
+.Modal {
   max-width: 768px;
   width: 100%;
   margin: 0 auto;

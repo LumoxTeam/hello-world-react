@@ -8,9 +8,8 @@ const STARSHIPS = `${BASE_API}/starships`
 
 class Api {
   async getPeopleList(page = 1) {
-    const query = await fetch(`${PEOPLE}/?page=${page}`);
-    console.log(query)
-    const { results } = await query.json();
+    const query = await fetch(`${PEOPLE}/?page=${page}`)
+    const { results } = await query.json()
     return results
   }
 }

@@ -1,0 +1,13 @@
+.People{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f2f2f2;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  height: 50px;
+  text-align: center;
+  width: 50%;
+  cursor: pointer;
+}
